@@ -42,28 +42,28 @@ main {
   justify-content: flex-end;
 }
 
-.button {
+.button__save{
+  margin-left: 16px;
   width: 116px;
   height: 44px;
   left: 0px;
   top: 0px;
-  background: #127369;
+  background: #10403b;
   box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.25);
   border-radius: 16px;
   border: none;
   color: #ffff;
   font-size: 16px;
-  &__save {
-    margin-left: 16px;
-    width: 116px;
-    height: 44px;
-    left: 0px;
-    top: 0px;
-    background: #10403b;
-    box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.25);
-    border-radius: 16px;
-    border: none;
-    color: #ffff;
-    font-size: 16px;
-  }
+}
+.button__load{
+width: 116px;
+height: 44px;
+left: 0px;
+top: 0px;
+background: #127369;
+box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.25);
+border-radius: 16px;
+border: none;
+color: #ffff;
+font-size: 16px;
 }
